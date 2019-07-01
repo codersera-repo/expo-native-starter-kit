@@ -13,3 +13,6 @@ web-report/
 app.json
 ios/Pods
 ios/build
+.expo-source
+.expo-shared
+*.xcworkspace
