@@ -8,6 +8,8 @@ const gOldSlugNameRegex = /exop-blank/g;
 let gName = 'empty';
 let gSlugName = 'empty-slug';
 
+const generatedPaths = ['ios/Pods', 'ios/build']; // TODO: add android specific generated paths
+
 prompt.start();
 
 
@@ -44,6 +46,19 @@ function replaceFileContent(fileName, oldName, oldNameRegex, newName) {
 }
 
 function iterateFolderAndUpdateContent(folderPath, oldName, oldNameRegex, newName) {
+
+    let isGenerated = false;
+    for(let gpath of generatedPaths) {
+        if(folderPath.includes(gpath)) {
+            isGenerated = true;
+            break;
+        }
+    }
+
+    if(isGenerated) {
+        return; // no need to change the content of this folder since it is generated.
+    }
+
     const files = fs.readdirSync(folderPath);
     const newFolderPath = folderPath.replace(oldNameRegex, newName);
     fs.renameSync(folderPath, newFolderPath);
@@ -55,8 +70,11 @@ function iterateFolderAndUpdateContent(folderPath, oldName, oldNameRegex, newNam
         const isFile = stat.isFile();
         if(!isFile) {
             iterateFolderAndUpdateContent(newPath, oldName, oldNameRegex, newName);
-        } else if(!newPath.endsWith('.png')) // add the files check that you don't want to modify
+        } else if(!newPath.endsWith('.png')) {// add the files check that you don't want to modify
             replaceFileContent(newPath, oldName, oldNameRegex, newName);
+            const newFilePath = newPath.replace(oldNameRegex, newName);
+            fs.renameSync(newPath, newFilePath);
+        }
     }
 }
 
