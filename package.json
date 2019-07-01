@@ -15,7 +15,8 @@
     "expo": "^33.0.0",
     "expo-modal": "^1.0.2",
     "expokit": "^33.0.3",
-    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
@@ -25,7 +26,8 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1",
-    "codegen.macro": "^3.0.0"
+    "codegen.macro": "^3.0.0",
+    "fs": "0.0.1-security"
   },
   "private": true
 }
