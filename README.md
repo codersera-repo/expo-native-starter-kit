@@ -1,4 +1,6 @@
-***Expo starter kit***
+# Expo starter kit
+
+#### A blazing fast ejecting tool and scaffolder, for react-native and expo
 
 ***Overview***
 
