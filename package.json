@@ -3,19 +3,19 @@
   "scripts": {
     "start": "expo start",
     "init": "rm -rf ios/build && rm -rf ios/Pods && node scripts/init.js",
-    "android": "expo start --android",
-    "install-ios-libs": "cd ios && bundle exec pod install",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject",
-    "ios-native": "EJECTED='true' node switchPlatform.js && npm run ios",
-    "ios-expo": "EJECTED='false' node switchPlatform.js && npm run ios"
+    "install-ios-libs": "cd ios && bundle install && bundle exec pod install",
+    "ios": "expo start --ios -c",
+    "android": "expo start --android -c",
+    "web": "expo start --web -c",
+    "ios-native": "REACT_NATIVE_EJECTED='true' node scripts/switchPlatform.js && npm run ios",
+    "android-native": "REACT_NATIVE_EJECTED='true' node scripts/switchPlatform.js && npm run android",
+    "ios-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run ios",
+    "android-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run android"
   },
   "dependencies": {
     "expo": "^33.0.0",
     "expo-modal": "^1.0.2",
     "expokit": "^33.0.3",
-    "path": "^0.12.7",
     "prompt": "^1.0.0",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
@@ -26,8 +26,14 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.1.1",
-    "codegen.macro": "^3.0.0",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
   },
   "private": true
 }
