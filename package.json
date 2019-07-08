@@ -2,7 +2,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "init": "rm -rf ios/build && rm -rf ios/Pods && rm -rf android/build/* && node scripts/init.js",
+    "init": "rm -rf ios/build && rm -rf ios/Pods && rm -rf android/build/* && node scripts/init.js && REACT_NATIVE_EJECTED='true' node scripts/switchPlatform.js",
     "install-ios-libs": "cd ios && bundle install && bundle exec pod install",
     "ios": "expo start --ios -c",
     "android": "expo start --android -c",
@@ -13,6 +13,7 @@
     "android-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run android"
   },
   "dependencies": {
+    "child_process": "^1.0.2",
     "expo": "^33.0.0",
     "expo-modal": "^1.0.2",
     "expokit": "^33.0.3",

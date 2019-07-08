@@ -7,6 +7,7 @@ const gOldSlugName = 'exop-blank';
 const gOldSlugNameRegex = /exop-blank/g;
 let gName = 'empty';
 let gSlugName = 'empty-slug';
+const execSync = require('child_process').execSync;
 
 const generatedPaths = ['ios/Pods', 'ios/build']; // TODO: add android specific generated paths
 
@@ -29,6 +30,8 @@ prompt.get([{
     gSlugName = results['slugName'];
     updateProjectConfigs(results);
     prompt.stop();
+    console.log('executing the node fixer command');
+    execSync('./node_modules/expokit/detach-scripts/run-exp.sh prepare-detached-build --platform android');
 });
 
 
