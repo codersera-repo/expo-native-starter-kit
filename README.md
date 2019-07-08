@@ -47,6 +47,9 @@ Therefore, this module is made as a headstart for running your app in ejected or
 commands. 
 
 ***Getting Started***
+
+***Running the app on an iOS emulator***
+
 1. Clone this repository
  ```
 git clone https://gitlab.com/manovagyanik1/expo-starter-kit.git 
@@ -57,6 +60,7 @@ git clone https://gitlab.com/manovagyanik1/expo-starter-kit.git
  ```
 
 **Installation**
+
 1. run the init script to specify your application name. It's gonna prompt you for your app name  and a slug name
  ```
 npm run init
@@ -81,4 +85,32 @@ npm run init
  ```
  npm run ios-expo
  ```
+ 
+ ***Running the app in android devices***
+ 
+ perform steps 1 and 2 , the same as mentioned above for iOS devices
+
+**Installation**
+
+1. run the init script to specify your application name. It's gonna prompt you for your app name  and a slug name
+ ```
+npm run init
+ ```
+2. Run this gradlew command to build and sync your app manually
+ ```
+cd android && ./gradlew installDebug
+ ```
+3. Open the android folder of your app in Android Studio. 
+
+4. Hit the ``Run`` button 
+
+5. Start the application in ejected mode
+ ```
+ npm run android-native
+ ```
+6. Start the app in unejected version
+ ```
+ npm run android-expo
+ ```
+
 
