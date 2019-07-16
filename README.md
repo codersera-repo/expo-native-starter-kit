@@ -2,6 +2,8 @@
 
 #### A blazing fast ejecting tool and scaffolder, for react-native and expo
 
+Watch this [expo starter kit](https://youtu.be/Yscc0j6t35E)
+
 ***Overview***
 
 Expo-starter-kit is a powerful, minimal configuration scaffolding tool, which provides a basic configuration for ejected apps built 
