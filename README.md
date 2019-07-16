@@ -54,7 +54,7 @@ commands.
 
 1. Clone this repository
  ```
-git clone https://gitlab.com/manovagyanik1/expo-starter-kit.git 
+git clone https://github.com/codersera-repo/expo-native-starter-kit.git 
 ```
 2. Install the dependencies
  ```
