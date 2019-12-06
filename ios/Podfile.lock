@@ -284,7 +284,7 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - RNDeviceInfo (2.1.3):
+  - RNDeviceInfo (2.3.2):
     - React
   - UMBarCodeScannerInterface (2.0.1)
   - UMCameraInterface (2.0.1)
@@ -663,7 +663,7 @@ SPEC CHECKSUMS:
   JKBigInteger2: e91672035c42328c48b7dd015b66812ddf40ca9b
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   React: 76e6aa2b87d05eb6cccb6926d72685c9a07df152
-  RNDeviceInfo: 5a3ae865d1736d2305be149578928b0c7198e852
+  RNDeviceInfo: bdc3e922b2ed0f086e9d9ab534e61bc316f08576
   UMBarCodeScannerInterface: 6630bdb7de233b049a1002ed07e0d725c9b5dc13
   UMCameraInterface: caef76a9296162e73cbb4ffd4cf935612c778213
   UMConstantsInterface: 2de3b83b072815d2f7acf9a9d76ceaa8da0d78cf
