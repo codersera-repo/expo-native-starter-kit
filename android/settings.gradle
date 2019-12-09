@@ -7,5 +7,4 @@ project(':react-native-device-info').projectDir = new File(rootProject.projectDi
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 
 // Include unimodules.
-includeUnimodulesProjects(
-)
+includeUnimodulesProjects()

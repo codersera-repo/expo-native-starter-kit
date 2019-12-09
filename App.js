@@ -1,5 +1,5 @@
 import React from 'react';
-import {Video} from 'expo';
+import {Video} from 'expo-av';
 import {StyleSheet, Text, View, TouchableHighlight, Dimensions, TouchableOpacity} from 'react-native';
 import {dismissModal, Modal, showModal} from 'expo-modal';
 import DeviceInfo from 'react-native-device-info';
