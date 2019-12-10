@@ -1,0 +1,162 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tushar/codebase/piyush-codebase/expo-native-starter-kit/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml",
+            "map": [
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/a41f2c5fc9c613e36adbb83eae2521b2/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "192",
+                        "endOffsets": "439"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4021",
+                        "endColumns": "192",
+                        "endOffsets": "4209"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/firebase-messaging-18.0.0.aar/623110521add31985d5c23f3becc799f/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "79",
+                        "startColumns": "4",
+                        "startOffsets": "7833",
+                        "endColumns": "104",
+                        "endOffsets": "7933"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/89692ce8658a3f35f4e2d7ac4a094697/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,544,671,777,995,1125,1270,1404,1634,1741,1941,2074,2298,2476,2569,2664",
+                        "endColumns": "103,194,126,105,217,129,144,133,229,106,199,132,223,177,92,94,109",
+                        "endOffsets": "348,543,670,776,994,1124,1269,1403,1633,1740,1940,2073,2297,2475,2568,2663,2773"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2838,2946,3141,3272,3382,3600,3734,3883,4214,4444,4555,4755,4892,5116,5298,5395,5494",
+                        "endColumns": "107,194,130,109,217,133,148,137,229,110,199,136,223,181,96,98,113",
+                        "endOffsets": "2941,3136,3267,3377,3595,3729,3878,4016,4439,4550,4750,4887,5111,5293,5390,5489,5603"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/e6a5b27b28c2f5d9439b415b7a62378f/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "97",
+                        "endOffsets": "287"
+                    },
+                    "to": {
+                        "startLines": "80",
+                        "startColumns": "4",
+                        "startOffsets": "7938",
+                        "endColumns": "101",
+                        "endOffsets": "8035"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/play-services-wallet-16.0.1.aar/16f1ca8b5cd5f23303ce7e647433eda6/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "200",
+                        "endColumns": "102",
+                        "endOffsets": "302"
+                    },
+                    "to": {
+                        "startLines": "90",
+                        "startColumns": "4",
+                        "startOffsets": "8849",
+                        "endColumns": "106",
+                        "endOffsets": "8951"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/aa11f8da3076d3f025fbe491f03182a7/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,329,437,522,624,750,834,915,1007,1101,1199,1293,1394,1488,1584,1679,1771,1863,1945,2052,2161,2260,2368,2472,2579,2738,2838",
+                        "endColumns": "111,111,107,84,101,125,83,80,91,93,97,93,100,93,95,94,91,91,81,106,108,98,107,103,106,158,99,81",
+                        "endOffsets": "212,324,432,517,619,745,829,910,1002,1096,1194,1288,1389,1483,1579,1674,1766,1858,1940,2047,2156,2255,2363,2467,2574,2733,2833,2915"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,88",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,329,437,522,624,750,834,915,1007,1101,1199,1293,1394,1488,1584,1679,1771,1863,1945,2052,2161,2260,2368,2472,2579,2738,8666",
+                        "endColumns": "111,111,107,84,101,125,83,80,91,93,97,93,100,93,95,94,91,91,81,106,108,98,107,103,106,158,99,81",
+                        "endOffsets": "212,324,432,517,619,745,829,910,1002,1096,1194,1288,1389,1483,1579,1674,1766,1858,1940,2047,2156,2255,2363,2467,2574,2733,2833,8743"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.9.2.aar/9b8044c06212c9626e6e355fa1b733dd/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,134,224,297,363,432,509,597,673,756,826,909,973,1047,1110,1175,1254,1331,1400,1453,1511,1559,1620,1690,1758,1824,1889,1955,2008,2070,2146,2222",
+                        "endColumns": "78,89,72,65,68,76,87,75,82,69,82,63,73,62,64,78,76,68,52,57,47,60,69,67,65,64,65,52,61,75,75,57",
+                        "endOffsets": "129,219,292,358,427,504,592,668,751,821,904,968,1042,1105,1170,1249,1326,1395,1448,1506,1554,1615,1685,1753,1819,1884,1950,2003,2065,2141,2217,2275"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5608,5687,5777,5850,5916,5985,6062,6150,6226,6309,6379,6462,6526,6600,6663,6728,6807,6884,6953,7006,7064,7112,7173,7243,7311,7377,7442,7508,7561,7623,7699,7775",
+                        "endColumns": "78,89,72,65,68,76,87,75,82,69,82,63,73,62,64,78,76,68,52,57,47,60,69,67,65,64,65,52,61,75,75,57",
+                        "endOffsets": "5682,5772,5845,5911,5980,6057,6145,6221,6304,6374,6457,6521,6595,6658,6723,6802,6879,6948,7001,7059,7107,7168,7238,7306,7372,7437,7503,7556,7618,7694,7770,7828"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/441634856bda211a2a30c7278fb05a53/res/values-gl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,266,391,456,522,606,723",
+                        "endColumns": "68,124,64,65,83,116,71",
+                        "endOffsets": "265,390,455,521,605,722,794"
+                    },
+                    "to": {
+                        "startLines": "81,82,83,84,85,86,87",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8040,8113,8242,8311,8381,8469,8590",
+                        "endColumns": "72,128,68,69,87,120,75",
+                        "endOffsets": "8108,8237,8306,8376,8464,8585,8661"
+                    }
+                },
+                {
+                    "source": "/Users/tushar/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/90552f5c0e0eea794d86e42b5c9966da/res/values-gl/values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "89",
+                        "startColumns": "4",
+                        "startOffsets": "8748",
+                        "endColumns": "100",
+                        "endOffsets": "8844"
+                    }
+                }
+            ]
+        }
+    ]
+}

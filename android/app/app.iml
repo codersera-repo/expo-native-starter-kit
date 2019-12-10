@@ -335,28 +335,5 @@
     <orderEntry type="module" module-name="unimodules-sensors-interface" />
     <orderEntry type="module" module-name="unimodules-task-manager-interface" />
     <orderEntry type="module" module-name="react-native-device-info" />
-    <orderEntry type="module" module-name="expo-av" />
-    <orderEntry type="module" module-name="expo-constants" />
-    <orderEntry type="module" module-name="unimodules-image-loader-interface" />
-    <orderEntry type="module" module-name="expo-permissions" />
-    <orderEntry type="module" module-name="expo-web-browser" />
-    <orderEntry type="module" module-name="expo-file-system" />
-    <orderEntry type="module" module-name="expo-location" />
-    <orderEntry type="module" module-name="unimodules-react-native-adapter" />
-    <orderEntry type="module" module-name="unimodules-core" />
-    <orderEntry type="module" module-name="expo-app-loader-provider" />
-    <orderEntry type="module" module-name="expo-font" />
-    <orderEntry type="module" module-name="expo-keep-awake" />
-    <orderEntry type="module" module-name="expo-linear-gradient" />
-    <orderEntry type="module" module-name="expo-sqlite" />
-    <orderEntry type="module" module-name="unimodules-barcode-scanner-interface" />
-    <orderEntry type="module" module-name="unimodules-camera-interface" />
-    <orderEntry type="module" module-name="unimodules-constants-interface" />
-    <orderEntry type="module" module-name="unimodules-file-system-interface" />
-    <orderEntry type="module" module-name="unimodules-font-interface" />
-    <orderEntry type="module" module-name="unimodules-permissions-interface" />
-    <orderEntry type="module" module-name="unimodules-sensors-interface" />
-    <orderEntry type="module" module-name="unimodules-task-manager-interface" />
-    <orderEntry type="module" module-name="react-native-device-info" />
   </component>
 </module>
