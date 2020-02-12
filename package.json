@@ -10,7 +10,8 @@
     "ios-native": "REACT_NATIVE_EJECTED='true' node scripts/switchPlatform.js && npm run ios",
     "android-native": "REACT_NATIVE_EJECTED='true' node scripts/switchPlatform.js && npm run android",
     "ios-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run ios",
-    "android-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run android"
+    "android-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run android",
+    "web-expo": "REACT_NATIVE_EJECTED='false' node scripts/switchPlatform.js && npm run web"
   },
   "dependencies": {
     "child_process": "^1.0.2",
