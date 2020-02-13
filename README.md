@@ -4,6 +4,8 @@
 
 Watch this [expo starter kit](https://youtu.be/Yscc0j6t35E)
 
+Watch this video that walks through the setup in MAC OS [expo starter kit](https://youtu.be/SMXEfinQTK4)
+
 ***Overview***
 
 Expo-starter-kit is a powerful, minimal configuration scaffolding tool, which provides a basic configuration for ejected apps built 
