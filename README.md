@@ -116,5 +116,12 @@ cd android && ./gradlew installDebug
  ```
  npm run android-expo
  ```
+ 
+ ***Running the app in web browser***
+
+ 1. Start the app in web
+  ```
+  npm run web-expo
+  ```
 
 
